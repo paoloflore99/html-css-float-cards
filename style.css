@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    color: rgb(204, 18, 195);
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#paragrafo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.riquadro {
+    max-width: 300px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    margin: 0% autos;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(20, 150, 211);
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+    float: left;
+}
+
+#foglio {
+    width: 1200px ;
+    margin: auto;
+    margin-top: 50px;
+}
